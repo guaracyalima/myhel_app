@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>MyHelp</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding id="welcome">
+  <img src="assets/imgs/radiation.png" alt="" class="logo">
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <h1>Bem vindo ao myhelp</h1>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col center text-center>
+        <button ion-button full color="success" (click)="signup()">Não tem conta? cadastre-se</button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+        <ion-col center text-center>
+          <button ion-button full color="lightText" (click)="login()">Entrar</button>
+        </ion-col>
+      </ion-row>
+  </ion-grid>
+</ion-content>
